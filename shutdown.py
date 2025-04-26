@@ -32,7 +32,7 @@ if GUI == ("yes" or "Yes"):
 
     root.mainloop()
 
-elif GUI == ("no" or "No"):
+elif GUI == "no" or GUI == "No":
     print("Ok!")
 else:
     print("Sorry Invalid Input!")
